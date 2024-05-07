@@ -1,0 +1,21 @@
+days_qty: 5
+
+sinatra:
+  environment: developement
+  session_secret: UEFqOi43qFSzkCYqs8NPaY3560zwD9SQzkaXGEQnAemb7piht2CWGAhekNzM9dth
+
+redis:
+  host: 127.0.0.1
+  port: 6379
+  db: 0
+
+sendgrid:
+  key: FpRapRVoeINsEMWMevmrZudBXqHBGgnOiiwHHcDmBRFkKn3fOAJVapzW7Cz9fKMuSQkHP
+  from: noreply@sample.com
+  name: Missing Emails Service
+
+users:
+  - id: 1
+    username: user
+    password: pUgbcnDtvH2Quv1j
+    email: sample@sample.com
