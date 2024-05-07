@@ -1,7 +1,7 @@
 days_qty: 5
 
 sinatra:
-  environment: developement
+  environment: development
   session_secret: UEFqOi43qFSzkCYqs8NPaY3560zwD9SQzkaXGEQnAemb7piht2CWGAhekNzM9dth
 
 redis:
